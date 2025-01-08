@@ -1,5 +1,6 @@
 import { defineStore } from '#q-app/wrappers'
 import { createPinia } from 'pinia'
+import RecepcionPedidos from 'src/components/RecepcionPedidos.vue'
 
 /*
  * If not building with SSR mode, you can
