@@ -95,6 +95,7 @@
       :columns="columnsLineas"
       row-key="name"
       hide-bottom
+      class="q-pa-sm"
     >
       <template v-slot:body-cell-acciones="props">
         <q-td :props="props">
@@ -150,6 +151,18 @@
       </template>
 
     </q-table>
+    <div
+      class="q-py-sm"
+      align="right"
+    >
+      <q-btn
+        class="q-pa-sm"
+        unelevated
+        color="primary"
+        style="width: 180px"
+        label="CONFIRMAR RECEPCIÓN"
+      />
+    </div>
   </div>
 
   <q-dialog v-model="showImageDialog_lineas">
